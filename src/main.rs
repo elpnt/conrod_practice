@@ -26,7 +26,7 @@ fn main() {
 
     // Add a `Font`
     const FONT_PATH: &'static str =
-        concat!(env!("CARGO_MANIFEST_DIR"), "/monaco.ttf");
+        concat!(env!("CARGO_MANIFEST_DIR"), "/fonts/monaco.ttf");
     ui.fonts.insert_from_file(FONT_PATH).unwrap();
 
     let mut renderer = conrod::backend::glium::Renderer::new(&display).unwrap();
