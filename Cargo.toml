@@ -1,0 +1,8 @@
+[package]
+name = "conrod_practice"
+version = "0.1.0"
+authors = ["velvetops <quantumular@gmail.com>"]
+
+[dependencies.conrod]
+version = "0.60.0"
+features = ["glium", "winit"]
